@@ -43,3 +43,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'mysql2', '~> 0.3.15'
+gem 'carrierwave', '~> 0.10.0'

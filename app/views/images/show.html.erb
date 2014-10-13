@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @image.image %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @image.user_id %>
+</p>
+
+<p>
+  <img src="<%= @image.image %>" alt="" style="max-height: 200px;">
+</p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
